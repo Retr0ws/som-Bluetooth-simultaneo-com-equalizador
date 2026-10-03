@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Estúdio de Áudio Bluetooth
+Comment=Abrir o aplicativo
+Exec=/home/weslley-felipe/Documentos/musica/.venv/bin/python /home/weslley-felipe/Documentos/musica/main.py
+Path=/home/weslley-felipe/Documentos/musica
+Icon=bluetooth
+Terminal=false
+Categories=AudioVideo;Audio;
+StartupNotify=true

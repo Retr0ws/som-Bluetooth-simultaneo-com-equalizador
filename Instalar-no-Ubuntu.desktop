@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Instalar Estúdio de Áudio Bluetooth
+GenericName=Instalador completo
+Comment=Instala pendências + app no menu + AppImage
+Exec=bash -c 'DIR="$(dirname "$(readlink -f "%k")")"; cd "$DIR" && bash ./scripts/instalar-tudo.sh; echo; read -r -p "Pressione Enter para fechar… "'
+Icon=system-software-install
+Terminal=true
+Categories=Settings;System;PackageManager;
+StartupNotify=true
+Keywords=instalar;bluetooth;audio;ubuntu;deps;appimage;
